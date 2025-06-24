@@ -88,6 +88,5 @@ if __name__ == "__main__":
 	# P01Practice_04.start(sys.argv)
 	
 	# T01Training_01.start(sys.argv)
-	T01Training_02.start(sys.argv)
-	# T01Training_03.start(sys.argv)
-	
+	# T01Training_02.start(sys.argv)
+	T01Training_03.start(sys.argv)
