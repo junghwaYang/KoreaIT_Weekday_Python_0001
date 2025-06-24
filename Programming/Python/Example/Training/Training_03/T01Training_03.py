@@ -14,4 +14,8 @@ Ex)
 
 # Training 3
 def start(args):
-	pass
+	nVal = int(input("정수 입력 :"))
+	if 1 <= nVal <= 100:
+		print(f"{nVal}는 1~100사이에 존재합니다.")
+	else:
+		print(f"{nVal}는 1~100사이에 존재하지않습니다.")
