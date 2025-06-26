@@ -20,11 +20,16 @@ Ex)
 # Training 2
 def start(args):
 	nScore = int(input("점수 입력 : "))
+<<<<<<< HEAD
+=======
+	
+>>>>>>> origin/main
 	oGrade = ""
 	oGrade_Detail = ""
 	
 	if nScore < 60:
 		oGrade = "F"
+<<<<<<< HEAD
 		
 	else:
 		if nScore >= 90:
@@ -36,13 +41,37 @@ def start(args):
 		else:
 			oGrade = "D"
 			
+=======
+	
+	else:
+		if nScore >= 90:
+			oGrade = "A"
+		
+		elif nScore >= 80:
+			oGrade = "B"
+		
+		elif nScore >= 70:
+			oGrade = "C"
+		
+		else:
+			oGrade = "D"
+		
+>>>>>>> origin/main
 		nScore_Detail = nScore % 10
 		
 		# + 일 경우
 		if nScore >= 100 or nScore_Detail >= 7:
 			oGrade_Detail = "+"
+<<<<<<< HEAD
 		else:
 			oGrade_Detail = "-" if nScore_Detail <= 3 else "0"
 			
 	print(f"{oGrade}{oGrade_Detail} 학점입니다.")
 		
+=======
+		
+		else:
+			oGrade_Detail = "-" if nScore_Detail <= 3 else "0"
+	
+	print(f"{oGrade}{oGrade_Detail} 학점입니다.")
+>>>>>>> origin/main
