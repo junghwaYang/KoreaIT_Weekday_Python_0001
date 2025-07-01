@@ -14,13 +14,6 @@ Ex)
 
 # Training 3
 def start(args):
-<<<<<<< HEAD
-	nVal = int(input("정수 입력 :"))
-	if 1 <= nVal <= 100:
-		print(f"{nVal}는 1~100사이에 존재합니다.")
-	else:
-		print(f"{nVal}는 1~100사이에 존재하지않습니다.")
-=======
 	nVal = int(input("정수 입력 : "))
 	
 	nVal_Min = 1
@@ -31,7 +24,7 @@ def start(args):
 	# 범위에 포함 될 경우
 	if nVal >= nVal_Min and nVal <= nVal_Max:
 		print(f"{nVal} 은(는) {nVal_Min} ~ {nVal_Max} 사이에 존재합니다.")
-		
+	
 	else:
 		print(f"{nVal} 은(는) {nVal_Min} ~ {nVal_Max} 사이에 존재하지않습니다.")
 	
@@ -58,5 +51,3 @@ def start(args):
 	
 	else:
 		print(f"{nVal} 은(는) {nVal_Min} ~ {nVal_Max} 사이에 존재하지않습니다.")
-		
->>>>>>> origin/main

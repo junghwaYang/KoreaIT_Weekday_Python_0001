@@ -21,4 +21,21 @@ Ex)
 
 # Training 6
 def start(args):
-	pass
+	nVal_Sum = 0
+	nNumValues = 0
+	
+	bIsContinue = True
+	
+	while bIsContinue:
+		nVal = int(input("정수 입력: "))
+		
+		# 입력을 종료 했을 경우
+		if nVal == 0:
+			bIsContinue = False
+		
+		else:
+			nVal_Sum += nVal
+			nNumValues += 1
+	
+	print(f"\n합계 : {nVal_Sum}")
+	print(f"\n평균 : {nVal_Sum / nNumValues}")

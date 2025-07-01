@@ -37,9 +37,9 @@ def start(args):
 	nTimes = int(input("횟수 입력 : "))
 	
 	print("=====> while 반복문 <=====")
-	i = 0
+	i = 1
 	
-	while i < nTimes:
+	while i <= nTimes:
 		# 짝수 일 경우
 		if i % 2 == 0:
 			i += 1
@@ -62,7 +62,7 @@ def start(args):
 		print 함수는 문장을 출력하고 나면 자동으로 개행 처리가 되는 특징이 존재하지만 개행 처리를
 		원치 않을 경우 아래와 같이 end 매개 변수에 빈 문자열을 전달하면 된다.
 		"""
-		print(f"{i + 1}, ", end = "")
+		print(f"{i}, ", end = "")
 		i += 1
 	
 	print("\n")
@@ -85,7 +85,7 @@ def start(args):
 	단, for 반복문은 while 반복문과 달리 반복을 끝내기 위한 조건문과 명령문을 별도로 작성하지 않아도 되기
 	때문에 의도치 않게 무한 루프에 빠질 가능성이 낮다는 장점이 존재한다.
 	"""
-	for i in range(0, nTimes):
+	for i in range(1, nTimes + 1):
 		# 짝수 일 경우
 		if i % 2 == 0:
 			"""
@@ -95,9 +95,9 @@ def start(args):
 			"""
 			continue
 		
-		print(f"{i + 1}, ", end = "")
+		print(f"{i}, ", end = "")
 	
 	print("\n")
 	
-	for i in range(0, nTimes):
+	for i in range(0, nTimes):  # 열거 가능한 것만 가능(list)
 		print(f"{i + 1} 번째 반복 중 입니다.")

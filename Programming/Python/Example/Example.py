@@ -48,6 +48,7 @@ from Training.Training_01 import T01Training_01
 from Training.Training_02 import T01Training_02
 from Training.Training_03 import T01Training_03
 from Training.Training_04 import T01Training_04
+from Training.Training_05 import T01Training_05
 from Training.Training_06 import T01Training_06
 from Training.Training_07 import T01Training_07
 from Training.Training_08 import T01Training_08
@@ -80,27 +81,27 @@ if __name__ == "__main__":
 	# E01Example_03.start(sys.argv)
 	# E01Example_04.start(sys.argv)
 	# E01Example_05.start(sys.argv)
-	E01Example_06.start(sys.argv)
-# E01Example_07.start(sys.argv)
-# E01Example_08.start(sys.argv)
-# E01Example_09.start(sys.argv)
-# E01Example_10.start(sys.argv)
-# E01Example_11.start(sys.argv)
-# E01Example_12.start(sys.argv)
-# E01Example_13.start(sys.argv)
-
-# P01Practice_01.start(sys.argv)
-# P01Practice_02.start(sys.argv)
-# P01Practice_03.start(sys.argv)
-# P01Practice_04.start(sys.argv)
-# P01Practice_05.start(sys.argv)
-# P01Practice_06.start(sys.argv)
-
-# T01Training_01.start(sys.argv)
-# T01Training_02.start(sys.argv)
-# T01Training_03.start(sys.argv)
-# T01Training_04.start(sys.argv)
-# T01Training_05.start(sys.argv)
-# T01Training_06.start(sys.argv)
+	# E01Example_06.start(sys.argv)
+	# E01Example_07.start(sys.argv)
+	# E01Example_08.start(sys.argv)
+	# E01Example_09.start(sys.argv)
+	# E01Example_10.start(sys.argv)
+	# E01Example_11.start(sys.argv)
+	# E01Example_12.start(sys.argv)
+	# E01Example_13.start(sys.argv)
+	
+	# P01Practice_01.start(sys.argv)
+	# P01Practice_02.start(sys.argv)
+	# P01Practice_03.start(sys.argv)
+	# P01Practice_04.start(sys.argv)
+	# P01Practice_05.start(sys.argv)
+	# P01Practice_06.start(sys.argv)
+	
+	# T01Training_01.start(sys.argv)
+	# T01Training_02.start(sys.argv)
+	# T01Training_03.start(sys.argv)
+	# T01Training_04.start(sys.argv)
+	# T01Training_05.start(sys.argv)
+	T01Training_06.start(sys.argv)
 # T01Training_07.start(sys.argv)
 # T01Training_08.start(sys.argv)
