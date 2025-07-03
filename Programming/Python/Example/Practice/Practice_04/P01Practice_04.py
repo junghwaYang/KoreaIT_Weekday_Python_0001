@@ -20,36 +20,4 @@ Ex)
 
 # Practice 4
 def start(args):
-	PRICE_STUFF_A = 50
-	PRICE_STUFF_B = 250
-	PRICE_STUFF_C = 500
-	
-	nAmount = int(input("소지 금액: "))
-	
-	print("\n ====> buy ture <====")
-	i = 0
-	
-	while i <= nAmount:
-		j = 0
-		
-		while j <= nAmount:
-			k = 0
-			
-			while k <= nAmount:
-				nPrice = i + j + k
-				
-				# if you use up all the money
-				if nPrice == nAmount:
-					nNumStuffsA = i // PRICE_STUFF_A
-					nNumStuffsB = j // PRICE_STUFF_B
-					nNumStuffsC = k // PRICE_STUFF_C
-					
-					oMsgA = f"item A x {nNumStuffsA},"
-					oMsgB = f"item B x {nNumStuffsB},"
-					oMsgC = f"item C x {nNumStuffsC}"
-					
-					print(f"{oMsgA} {oMsgB} {oMsgC}")
-				
-				k += PRICE_STUFF_C
-			j += PRICE_STUFF_B
-		i += PRICE_STUFF_A
+	pass
